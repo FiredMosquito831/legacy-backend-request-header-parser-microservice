@@ -1,0 +1,8 @@
+# local test run — legacy-back-end/request-header-parser-microservice
+# command: node test_local.js (server booted on a throwaway port, then stopped)
+
+  ok 1 ipaddress / language / software parsed from real headers
+  ok 2 X-Forwarded-For honoured, UA fallback works
+  ok 3 plain fetch still returns the three keys
+
+PASS — 3 local assertions

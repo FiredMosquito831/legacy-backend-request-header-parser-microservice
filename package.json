@@ -1,0 +1,14 @@
+{
+  "name": "requestheaderparsermicroservice",
+  "version": "1.0.0",
+  "description": "Legacy Back-End variant of the Request Header Parser (identical spec).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_local.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "license": "MIT"
+}
